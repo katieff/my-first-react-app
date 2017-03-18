@@ -6,3 +6,5 @@ ReactDOM.render(
   <Menu />,
   document.getElementById('app')
 );
+
+console.log('Hello World!');
