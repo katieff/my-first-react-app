@@ -6,7 +6,20 @@ This is a project example set up for a react app.
 
 You only need to have installed [node.js](https://nodejs.org/en/) and [npm](https://www.npmjs.com/).
 
-## Set up on your own
+## Get Started
+
+After cloning the project, execute:
+```
+npm install
+```
+to install all dependencies.
+To run the integrated webpack dev server locally, execute 
+```
+npm run start
+```
+and navigate to http://localhost:8081/
+
+## Set up project on your own
 
 First you need to initialiaze the project useing npm:
 
@@ -18,9 +31,11 @@ npm init
 
 Our App will only have two basic files `app.js` and `index.html` in a src folder:
 
+app.js
 ```javascript
 console.log('Hello World!');
 ```
+index.html
 ```html
 <!DOCTYPE html>
 <html>
